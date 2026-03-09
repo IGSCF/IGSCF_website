@@ -1,0 +1,24 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        brand: {
+          orange: '#ED920E',
+          brown: '#6E2B0A',
+          cream: '#FFF7F2',
+          light: '#F9D9AB',
+        }
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        playfair: ['"Playfair Display"', 'serif'],
+      }
+    },
+  },
+  plugins: [],
+}
