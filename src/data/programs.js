@@ -18,7 +18,7 @@ export const programs = [
     tabId: 'events',
   },
   {
-    headerBg: 'bg-[#3d1f0f]',
+    headerBg: 'bg-[#a32638]',
     headerText: 'Home Groups',
     title: 'Small Group Gatherings',
     time: 'Monthly · Host Homes',

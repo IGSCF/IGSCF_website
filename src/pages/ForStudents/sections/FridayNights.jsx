@@ -5,7 +5,7 @@ import { ClockIcon, PinIcon, DinnerIcon } from '../icons'
 function InfoRow({ icon, text }) {
   return (
     <div className="flex items-center gap-2 text-sm text-[#2c1a0e]">
-      <span className="text-[#e89c2f]">{icon}</span>
+      <span className="text-[#a32638]">{icon}</span>
       <span>{text}</span>
     </div>
   )
@@ -17,7 +17,7 @@ export default function FridayNights() {
   return (
     <section className="py-12 px-8">
       <div className="max-w-5xl mx-auto">
-        <p className="text-[#e89c2f] text-xs font-semibold uppercase tracking-widest mb-1">Every Week</p>
+        <p className="text-[#a32638] text-xs font-semibold uppercase tracking-widest mb-1">Every Week</p>
         <h2 className="text-3xl font-bold text-[#2c1a0e] mb-3">Friday Nights</h2>
         <p className="text-[#7a6555] text-sm max-w-xl mb-8">
           Join us for free dinner, fun activities, and thoughtful discussions on spirituality and the Bible. Open
@@ -42,7 +42,7 @@ export default function FridayNights() {
               </div>
             </button>
             <p className="text-[#7a6555] text-xs text-center">
-              Campus Map — <span className="font-semibold text-[#e89c2f]">Building #7</span> is Gateway North
+              Campus Map — <span className="font-semibold text-[#a32638]">Building #7</span> is Gateway North
             </p>
           </div>
 
@@ -55,7 +55,7 @@ export default function FridayNights() {
               <div className="relative max-w-4xl w-full" onClick={(e) => e.stopPropagation()}>
                 <img src={campusMapImg} alt="Campus Map Full" className="w-full h-auto rounded-xl shadow-2xl" />
                 <p className="text-white/70 text-xs text-center mt-2">
-                  <span className="font-semibold text-[#e89c2f]">Building #7</span> — Gateway North, Room 103
+                  <span className="font-semibold text-[#a32638]">Building #7</span> — Gateway North, Room 103
                 </p>
                 <button
                   onClick={() => setMapOpen(false)}
@@ -85,14 +85,14 @@ export default function FridayNights() {
                   <>Register and you're all set — see you Friday!</>,
                 ].map((step, i) => (
                   <li key={i} className="flex items-start gap-2 text-sm text-[#2c1a0e]">
-                    <span className="w-5 h-5 rounded-full bg-[#e89c2f] text-white text-xs flex items-center justify-center flex-shrink-0 mt-0.5 font-semibold">
+                    <span className="w-5 h-5 rounded-full bg-[#a32638] text-white text-xs flex items-center justify-center flex-shrink-0 mt-0.5 font-semibold">
                       {i + 1}
                     </span>
                     <span>{step}</span>
                   </li>
                 ))}
               </ol>
-              <button className="mt-4 bg-[#e89c2f] text-white text-sm font-semibold px-5 py-2 rounded-full hover:bg-[#f0b84a] transition-colors">
+              <button className="mt-4 bg-[#a32638] text-white text-sm font-semibold px-5 py-2 rounded-full hover:bg-[#8a1e2f] transition-colors">
                 Register Now →
               </button>
             </div>

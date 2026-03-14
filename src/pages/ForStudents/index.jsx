@@ -26,7 +26,7 @@ export default function ForStudents() {
 
       {/* Page header */}
       <div className="bg-[#faf6f0] pt-10 pb-2 text-center">
-        <span className="inline-block border border-[#e89c2f] text-[#e89c2f] text-xs font-semibold uppercase tracking-widest px-4 py-1 rounded-full mb-4">
+        <span className="inline-block border border-[#a32638] text-[#a32638] text-xs font-semibold uppercase tracking-widest px-4 py-1 rounded-full mb-4">
           Programs &amp; Activities
         </span>
         <h1 className="text-4xl font-bold text-[#2c1a0e]">What We Do</h1>
@@ -40,7 +40,7 @@ export default function ForStudents() {
               <button
                 key={link.id}
                 onClick={() => scrollTo(link.id)}
-                className="flex items-center gap-2 px-5 py-4 text-sm font-medium border-b-2 border-transparent text-[#7a6555] hover:text-[#e89c2f] hover:border-[#e89c2f] transition-colors whitespace-nowrap"
+                className="flex items-center gap-2 px-5 py-4 text-sm font-medium border-b-2 border-transparent text-[#7a6555] hover:text-[#a32638] hover:border-[#a32638] transition-colors whitespace-nowrap"
               >
                 {link.icon}
                 {link.label}

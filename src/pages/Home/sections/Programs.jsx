@@ -8,13 +8,13 @@ function ProgramCard({ headerBg, headerText, title, time, description, tabId }) 
         <span className="text-white font-semibold text-base">{headerText}</span>
       </div>
       <div className="p-5">
-        <h3 className="text-[#e89c2f] font-semibold text-sm">{title}</h3>
-        <p className="text-[#e89c2f] text-xs mt-0.5">{time}</p>
-        <div className="w-8 h-0.5 bg-[#e89c2f] my-3" />
+        <h3 className="text-[#a32638] font-semibold text-sm">{title}</h3>
+        <p className="text-[#a32638] text-xs mt-0.5">{time}</p>
+        <div className="w-8 h-0.5 bg-[#a32638] my-3" />
         <p className="text-[#7a6555] text-sm leading-relaxed">{description}</p>
         <Link
           to={tabId ? `/students#${tabId}` : '/students'}
-          className="mt-5 inline-block bg-[#e89c2f] text-white text-xs font-semibold px-4 py-2 rounded-md hover:bg-[#f0b84a] transition-colors"
+          className="mt-5 inline-block bg-[#a32638] text-white text-xs font-semibold px-4 py-2 rounded-md hover:bg-[#8a1e2f] transition-colors"
         >
           More Info
         </Link>
@@ -27,7 +27,7 @@ export default function Programs() {
   return (
     <section className="bg-[#faf6f0] py-12 px-8" id="students">
       <div className="max-w-5xl mx-auto">
-        <p className="text-[#e89c2f] text-xs font-semibold uppercase tracking-widest mb-1">Programs</p>
+        <p className="text-[#a32638] text-xs font-semibold uppercase tracking-widest mb-1">Programs</p>
         <h2 className="text-3xl font-bold text-[#2c1a0e] mb-8">For Students</h2>
         <div className="flex gap-6">
           {programs.map((p) => (
