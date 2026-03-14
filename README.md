@@ -21,7 +21,7 @@ The official website for the International Graduate Student Christian Fellowship
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/<your-org>/IGSCF_website.git
+git clone https://github.com/IGSCF/IGSCF_website.git
 cd IGSCF_website
 ```
 
