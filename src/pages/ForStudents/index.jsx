@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import Navbar from '../../components/layout/Navbar'
 import Footer from '../../components/layout/Footer'
 import FridayNights from './sections/FridayNights'
@@ -16,6 +17,24 @@ const navLinks = [
 ]
 
 export default function ForStudents() {
+  const [activeId, setActiveId] = useState('friday')
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) setActiveId(entry.target.id)
+        })
+      },
+      { rootMargin: '-40% 0px -55% 0px' }
+    )
+    navLinks.forEach(({ id }) => {
+      const el = document.getElementById(id)
+      if (el) observer.observe(el)
+    })
+    return () => observer.disconnect()
+  }, [])
+
   const scrollTo = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
   }
@@ -40,7 +59,11 @@ export default function ForStudents() {
               <button
                 key={link.id}
                 onClick={() => scrollTo(link.id)}
-                className="flex items-center gap-2 px-5 py-4 text-sm font-medium border-b-2 border-transparent text-[#7a6555] hover:text-[#a32638] hover:border-[#a32638] transition-colors whitespace-nowrap"
+                className={`flex items-center gap-2 px-5 py-4 text-sm font-semibold border-b-2 transition-colors whitespace-nowrap ${
+                  activeId === link.id
+                    ? 'text-[#a32638] border-[#a32638]'
+                    : 'text-[#7a6555] border-transparent hover:text-[#a32638] hover:border-[#a32638]/50'
+                }`}
               >
                 {link.icon}
                 {link.label}

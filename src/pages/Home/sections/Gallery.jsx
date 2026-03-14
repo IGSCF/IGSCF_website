@@ -45,7 +45,7 @@ export default function Gallery() {
           {/* Photo frame */}
           <div
             className="w-full overflow-hidden rounded-2xl shadow-lg"
-            style={{ maxWidth: '640px', height: '420px' }}
+            style={{ maxWidth: '720px', height: '500px' }}
           >
             <img
               key={current}
@@ -72,7 +72,7 @@ export default function Gallery() {
             <button
               key={i}
               onClick={() => setCurrent(i)}
-              className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${i === current ? 'bg-[#a32638] scale-125' : 'bg-gray-300 hover:bg-gray-400'
+              className={`w-3.5 h-3.5 rounded-full transition-all duration-300 ${i === current ? 'bg-[#a32638] scale-125' : 'bg-gray-400 hover:bg-gray-600'
                 }`}
               aria-label={`Go to photo ${i + 1}`}
             />

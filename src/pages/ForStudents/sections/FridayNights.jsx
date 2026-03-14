@@ -26,7 +26,7 @@ export default function FridayNights() {
 
         <div className="flex gap-8">
           {/* Campus map thumbnail */}
-          <div className="flex-1 max-w-xs flex flex-col gap-2">
+          <div className="w-[200px] flex-shrink-0 flex flex-col gap-2">
             <button
               onClick={() => setMapOpen(true)}
               className="rounded-xl overflow-hidden border border-gray-200 block w-full group relative"
@@ -41,8 +41,8 @@ export default function FridayNights() {
                 <span className="bg-black/50 text-white text-xs px-3 py-1 rounded-full">Click to enlarge</span>
               </div>
             </button>
-            <p className="text-[#7a6555] text-xs text-center">
-              Campus Map — <span className="font-semibold text-[#a32638]">Building #7</span> is Gateway North
+            <p className="text-sm font-semibold text-center bg-[#a32638]/10 border border-[#a32638]/30 text-[#a32638] rounded-lg px-3 py-2">
+              Campus Map — <span className="underline underline-offset-2">Building #7</span> is Gateway North
             </p>
           </div>
 
@@ -52,8 +52,8 @@ export default function FridayNights() {
               className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-6"
               onClick={() => setMapOpen(false)}
             >
-              <div className="relative max-w-4xl w-full" onClick={(e) => e.stopPropagation()}>
-                <img src={campusMapImg} alt="Campus Map Full" className="w-full h-auto rounded-xl shadow-2xl" />
+              <div className="relative max-w-4xl w-full max-h-[90vh] flex flex-col" onClick={(e) => e.stopPropagation()}>
+                <img src={campusMapImg} alt="Campus Map Full" className="w-full max-h-[82vh] object-contain rounded-xl shadow-2xl" />
                 <p className="text-white/70 text-xs text-center mt-2">
                   <span className="font-semibold text-[#a32638]">Building #7</span> — Gateway North, Room 103
                 </p>
@@ -78,7 +78,7 @@ export default function FridayNights() {
             <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
               <h3 className="font-bold text-[#2c1a0e] text-base mb-3">Register for Friday Night</h3>
               <p className="text-[#7a6555] text-sm mb-3">To join our Friday Night dinners, follow these steps:</p>
-              <ol className="flex flex-col gap-2">
+              <ol className="flex flex-col gap-3">
                 {[
                   <>Go to the <span className="font-semibold">Duckling app</span> on your phone</>,
                   <>Search for <span className="font-semibold">"IGSCF Friday Dinner"</span></>,

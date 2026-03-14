@@ -21,24 +21,27 @@ export default function EnglishClass() {
             </button>
           </div>
 
-          <div className="flex gap-6">
-            {englishSocialLinks.map((s) => (
-              <a
-                key={s.name}
-                href={s.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex flex-col items-center gap-1 group"
-              >
-                <div
-                  className="w-14 h-14 rounded-full flex items-center justify-center shadow-md group-hover:opacity-90 transition-opacity"
-                  style={{ background: s.bg }}
+          <div className="flex flex-col items-center gap-3 bg-[#faf6f0] border border-[#e8ddd4] rounded-xl px-6 py-4">
+            <p className="text-xs font-semibold text-[#7a6555] uppercase tracking-widest">Join us on</p>
+            <div className="flex gap-6">
+              {englishSocialLinks.map((s) => (
+                <a
+                  key={s.name}
+                  href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col items-center gap-1 group"
                 >
-                  {s.icon}
-                </div>
-                <span className="text-xs text-[#7a6555] font-medium">{s.name}</span>
-              </a>
-            ))}
+                  <div
+                    className="w-[56px] h-[56px] rounded-full flex items-center justify-center shadow-md group-hover:scale-110 transition-transform"
+                    style={{ background: s.bg }}
+                  >
+                    {s.icon}
+                  </div>
+                  <span className="text-xs text-[#7a6555] font-medium">{s.name}</span>
+                </a>
+              ))}
+            </div>
           </div>
         </div>
       </div>

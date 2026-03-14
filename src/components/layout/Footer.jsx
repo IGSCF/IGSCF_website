@@ -28,9 +28,9 @@ export default function Footer() {
         <div className="flex items-center gap-1 text-sm text-white">
           <a href="#about" className="hover:text-white/75 transition-colors px-2">About Us</a>
           <span className="text-white/40">|</span>
-          <Link to="/students" className="hover:text-white/75 transition-colors px-2">Students</Link>
+          <Link to="/" className="hover:text-white/75 transition-colors px-2">Home</Link>
           <span className="text-white/40">|</span>
-          <a href="#donors" className="hover:text-white/75 transition-colors px-2">Donors</a>
+          <Link to="/students" className="hover:text-white/75 transition-colors px-2">Students</Link>
         </div>
 
         {/* CTA */}

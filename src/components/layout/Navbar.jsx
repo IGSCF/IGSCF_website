@@ -22,10 +22,10 @@ export default function Navbar() {
         <Link to="/" className="text-white text-sm hover:text-white/75 transition-colors">Home</Link>
         <Link to="/students" className="text-white text-sm hover:text-white/75 transition-colors font-semibold">For Students</Link>
         <Link
-          to="/#donors"
+          to="/#partner"
           className="bg-white text-[#a32638] text-sm font-semibold px-5 py-2 rounded-full hover:bg-gray-100 transition-colors"
         >
-          For Donors
+          Partner with Us
         </Link>
       </div>
     </nav>

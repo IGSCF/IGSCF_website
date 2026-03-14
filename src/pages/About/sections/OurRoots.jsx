@@ -51,11 +51,11 @@ export default function OurRoots() {
 
           {/* Connector */}
           <div className="flex flex-col items-center py-3 gap-1">
-            <div className="w-px h-6 bg-[#a32638]/40" />
+            <div className="w-0.5 h-8 bg-[#a32638]/70" />
             <span className="text-[#6b5c4e] text-xs uppercase tracking-widest font-medium px-3">
               Local Graduate Chapter of
             </span>
-            <div className="w-px h-6 bg-[#a32638]/40" />
+            <div className="w-0.5 h-8 bg-[#a32638]/70" />
           </div>
 
           {/* Local chapter card */}
