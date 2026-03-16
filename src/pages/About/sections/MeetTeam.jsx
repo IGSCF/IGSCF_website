@@ -39,7 +39,7 @@ const team = [
 
 export default function MeetTeam() {
   return (
-    <section className="bg-[#f5f0e8] py-14 px-8">
+    <section className="bg-[#f5f0e8] py-14 px-4 sm:px-8">
       <div className="max-w-3xl mx-auto">
         <div className="flex justify-center mb-4">
           <span className="text-[#6b5c4e] text-xs font-semibold uppercase tracking-widest border border-[#6b5c4e]/30 px-4 py-1 rounded-full">

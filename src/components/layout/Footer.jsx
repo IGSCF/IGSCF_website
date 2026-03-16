@@ -3,8 +3,8 @@ import logoImg from '../../assets/logos/logo.jpg'
 
 export default function Footer() {
   return (
-    <footer className="bg-[#363d45] py-5 px-8">
-      <div className="max-w-5xl mx-auto flex items-center justify-between gap-4">
+    <footer className="bg-[#363d45] py-6 px-4 sm:px-8">
+      <div className="max-w-5xl mx-auto flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         {/* Logo + privacy */}
         <div className="flex items-center gap-3">
           <img
@@ -25,14 +25,14 @@ export default function Footer() {
         </div>
 
         {/* Nav links */}
-        <div className="flex items-center gap-1 text-sm text-white">
-          <Link to="/about" className="hover:text-white/75 transition-colors px-3 min-h-[44px] flex items-center">About Us</Link>
+        <div className="flex flex-wrap items-center gap-y-1 gap-x-0 text-sm text-white">
+          <Link to="/about" className="hover:text-white/75 transition-colors px-2 sm:px-3 min-h-[44px] flex items-center">About Us</Link>
           <span className="text-white/40">|</span>
-          <Link to="/" className="hover:text-white/75 transition-colors px-3 min-h-[44px] flex items-center">Home</Link>
+          <Link to="/" className="hover:text-white/75 transition-colors px-2 sm:px-3 min-h-[44px] flex items-center">Home</Link>
           <span className="text-white/40">|</span>
-          <Link to="/students" className="hover:text-white/75 transition-colors px-3 min-h-[44px] flex items-center">Students</Link>
+          <Link to="/students" className="hover:text-white/75 transition-colors px-2 sm:px-3 min-h-[44px] flex items-center">Students</Link>
           <span className="text-white/40">|</span>
-          <Link to="/partner" className="hover:text-white/75 transition-colors px-3 min-h-[44px] flex items-center">Partner with Us</Link>
+          <Link to="/partner" className="hover:text-white/75 transition-colors px-2 sm:px-3 min-h-[44px] flex items-center">Partner with Us</Link>
         </div>
 
       </div>

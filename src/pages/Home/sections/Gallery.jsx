@@ -55,7 +55,7 @@ export default function Gallery() {
   }
 
   return (
-    <section className="bg-[#f0ebe4] py-12 px-8">
+    <section className="bg-[#f0ebe4] py-12 px-4 sm:px-8">
       <div className="max-w-5xl mx-auto">
         <p className="text-[#a32638] text-xs font-semibold uppercase tracking-widest mb-1">Gallery</p>
         <h2 className="text-2xl md:text-3xl font-bold text-[#2c1a0e] mb-8">Community Photos</h2>

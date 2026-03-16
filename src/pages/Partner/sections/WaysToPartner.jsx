@@ -80,7 +80,7 @@ export default function WaysToPartner() {
   return (
     <section
       id="get-involved"
-      className="bg-gray-100 py-16 px-8"
+      className="bg-gray-100 py-16 px-4 sm:px-8"
       aria-labelledby="ways-heading"
     >
       <div className="max-w-3xl mx-auto">

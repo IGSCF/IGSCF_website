@@ -18,7 +18,7 @@ function GradCapIcon() {
 
 export default function OurRoots() {
   return (
-    <section className="bg-[#f5f0e8] py-14 px-8">
+    <section className="bg-[#f5f0e8] py-14 px-4 sm:px-8">
       <div className="max-w-3xl mx-auto">
         <p className="text-[#a32638] text-xs font-semibold uppercase tracking-widest mb-1">Our Roots</p>
         <h2 className="text-3xl font-bold text-[#1a1a1a] mb-3">How We're Connected</h2>

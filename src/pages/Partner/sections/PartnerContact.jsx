@@ -1,6 +1,6 @@
 export default function PartnerContact() {
   return (
-    <section className="bg-[#faf6f0] py-16 px-8" id="partner-contact">
+    <section className="bg-[#faf6f0] py-16 px-4 sm:px-8" id="partner-contact">
       <div className="max-w-2xl mx-auto text-center">
         <p className="text-[#a32638] text-xs font-semibold uppercase tracking-widest mb-2">
           Get Involved

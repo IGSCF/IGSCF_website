@@ -15,7 +15,7 @@ export default function FridayNights() {
   const [mapOpen, setMapOpen] = useState(false)
 
   return (
-    <section className="py-12 px-8">
+    <section className="py-12 px-4 sm:px-8">
       <div className="max-w-5xl mx-auto">
         <p className="text-[#a32638] text-xs font-semibold uppercase tracking-widest mb-1">Every Week</p>
         <h2 className="text-2xl md:text-3xl font-bold text-[#2c1a0e] mb-3">Friday Nights</h2>

@@ -1,6 +1,6 @@
 export default function PartnerIntro() {
   return (
-    <section className="bg-[#faf6f0] py-16 px-8">
+    <section className="bg-[#faf6f0] py-16 px-4 sm:px-8">
       <div className="max-w-2xl mx-auto">
         <p className="text-[#4a3728] text-base md:text-lg leading-relaxed">
           We have amazing opportunities for befriending{' '}

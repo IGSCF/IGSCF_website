@@ -1,6 +1,6 @@
 export default function PartnerBanner() {
   return (
-    <section className="bg-[#363d45] py-14 px-8 text-center">
+    <section className="bg-[#363d45] py-14 px-4 sm:px-8 text-center">
       <div className="max-w-2xl mx-auto">
         {/* Decorative dots */}
         <div className="flex justify-center gap-2 mb-6" aria-hidden="true">

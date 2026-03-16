@@ -71,7 +71,7 @@ export default function ForStudents() {
 
       {/* Sticky scroll-anchor nav */}
       <nav role="navigation" aria-label="Page sections" className="border-b border-gray-200 bg-gray-100 sticky top-0 z-20">
-        <div className="max-w-5xl mx-auto px-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-8">
           <div role="tablist" className="flex gap-0 overflow-x-auto">
             {navLinks.map((link) => (
               <button

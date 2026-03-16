@@ -1,6 +1,6 @@
 export default function Volunteer() {
   return (
-    <section className="py-14 px-8 bg-[#faf6f0]">
+    <section className="py-14 px-4 sm:px-8 bg-[#faf6f0]">
       <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-[#2c1a0e] mb-4">Want to Make a Difference?</h2>
           <p className="text-[#7a6555] text-sm leading-relaxed mb-6 max-w-md">

@@ -9,7 +9,7 @@ export default function Privacy() {
       </a>
       <Navbar />
       <main id="main-content" className="flex-1">
-        <section className="max-w-3xl mx-auto px-8 py-16">
+        <section className="max-w-3xl mx-auto px-4 sm:px-8 py-16">
           <p className="text-[#a32638] text-xs font-semibold uppercase tracking-widest mb-2">Legal</p>
           <h1 className="text-2xl md:text-4xl font-bold text-[#2c1a0e] mb-8">Privacy Policy</h1>
           <p className="text-xs text-[#7a6555] mb-10">Effective Date: March 14, 2026</p>

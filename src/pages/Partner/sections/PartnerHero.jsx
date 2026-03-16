@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export default function PartnerHero() {
   return (
-    <section className="bg-gray-100 py-14 px-8 text-center">
+    <section className="bg-gray-100 py-14 px-4 sm:px-8 text-center">
       {/* Icon — hands cupped with heart, drawn with SVG */}
       <div className="flex justify-center mb-5">
         <div className="w-20 h-20 flex items-center justify-center">
