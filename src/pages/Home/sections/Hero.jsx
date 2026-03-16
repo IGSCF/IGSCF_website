@@ -22,7 +22,7 @@ export default function Hero() {
   }
 
   return (
-    <section className="relative w-full h-[85vh] md:h-[70vh] overflow-hidden">
+    <section className="relative w-full h-screen overflow-hidden">
       {/* Mobile portrait video */}
       <video
         ref={mobileVideoRef}
