@@ -13,9 +13,9 @@ export default function Hero() {
         preload="none"
       />
       <div className="absolute inset-0 bg-black/60" />
-      <div className="absolute inset-0 flex items-center justify-center text-center text-white px-4">
-        <div className="border border-white/40 px-10 py-8 max-w-2xl">
-          <p className="text-2xl md:text-3xl font-bold leading-snug">
+      <div className="absolute inset-0 flex items-center justify-center text-center text-white px-3">
+        <div className="border border-white/40 px-4 py-4 sm:px-10 sm:py-8 w-full max-w-2xl">
+          <p className="text-sm sm:text-xl md:text-3xl font-bold leading-snug">
             International Students,<br />
             at Stevens Institute of Technology<br />
             from All Religious &amp; Ethnic Backgrounds<br />

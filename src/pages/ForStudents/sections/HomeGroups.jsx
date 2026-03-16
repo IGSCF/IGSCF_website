@@ -35,7 +35,7 @@ const scheduleItems = [
 
 export default function HomeGroups() {
   return (
-    <section className="py-12 px-8">
+    <section className="py-12 px-4 sm:px-8">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold text-[#2c1a0e] mb-3">Home Groups</h2>
         <p className="text-[#7a6555] text-sm mb-2">

@@ -75,7 +75,7 @@ export default function Programs() {
   }
 
   return (
-    <section className="bg-[#faf6f0] py-12 px-8" id="students">
+    <section className="bg-[#faf6f0] py-12 px-4 sm:px-8" id="students">
       <div className="max-w-5xl mx-auto">
         <p className="text-[#a32638] text-xs font-semibold uppercase tracking-widest mb-1">Programs</p>
         <div className="flex items-center justify-between mb-8">

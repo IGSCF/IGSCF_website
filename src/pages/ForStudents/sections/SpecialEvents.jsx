@@ -14,7 +14,7 @@ export default function SpecialEvents() {
   const event = events[current]
 
   return (
-    <section className="py-12 px-8 bg-white">
+    <section className="py-12 px-4 sm:px-8 bg-white">
       <div className="max-w-5xl mx-auto">
         <p className="text-[#a32638] text-xs font-semibold uppercase tracking-widest mb-1">Throughout the Year</p>
         <h2 className="text-2xl md:text-3xl font-bold text-[#2c1a0e] mb-3">Special Events</h2>
@@ -37,7 +37,7 @@ export default function SpecialEvents() {
             ←
           </button>
 
-          <div className="relative px-16 py-10">
+          <div className="relative px-12 sm:px-16 py-10">
             <span className="inline-block bg-[#a32638] text-white text-xs font-bold px-3 py-1 rounded-full mb-3">
               {event.badge}
             </span>

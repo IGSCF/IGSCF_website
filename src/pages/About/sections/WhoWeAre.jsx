@@ -23,11 +23,11 @@ const cards = [
 
 export default function WhoWeAre() {
   return (
-    <section className="bg-white py-14 px-8">
+    <section className="bg-white py-14 px-4 sm:px-8">
       <div className="max-w-3xl mx-auto">
         <p className="text-[#a32638] text-xs font-semibold uppercase tracking-widest mb-1">Our Community</p>
         <h2 className="text-3xl font-bold text-[#1a1a1a] mb-8">Who We Are</h2>
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           {cards.map((card) => (
             <div key={card.title} className="bg-white rounded-xl border border-gray-100 shadow-sm p-6">
               <h3 className="font-bold text-[#1a1a1a] text-base mb-2">{card.title}</h3>

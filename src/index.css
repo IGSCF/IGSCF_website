@@ -10,11 +10,16 @@
   padding: 0;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Source Sans 3', sans-serif;
   background: #faf6f0;
   color: #2c1a0e;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 :focus-visible {

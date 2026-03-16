@@ -4,7 +4,7 @@ const englishSocialLinks = socialLinks.filter((s) => s.name === 'WhatsApp' || s.
 
 export default function EnglishClass() {
   return (
-    <section className="py-12 px-8 bg-white">
+    <section className="py-12 px-4 sm:px-8 bg-white">
       <div className="max-w-5xl mx-auto">
         <p className="text-[#a32638] text-xs font-semibold uppercase tracking-widest mb-1">Skill Building</p>
         <h2 className="text-2xl md:text-3xl font-bold text-[#2c1a0e] mb-5">English Class</h2>
