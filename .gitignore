@@ -18,7 +18,5 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
-
-
 # Project-specific
 image_mockup/
