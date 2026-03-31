@@ -3,8 +3,26 @@ name: CI - Build Check
 on:
   push:
     branches: [main]
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'vite.config.*'
+      - 'index.html'
+      - 'tailwind.config.*'
+      - 'postcss.config.*'
   pull_request:
     branches: [main]
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'vite.config.*'
+      - 'index.html'
+      - 'tailwind.config.*'
+      - 'postcss.config.*'
 
 jobs:
   build:

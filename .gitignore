@@ -18,9 +18,5 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Tool-specific
-.claude
-CLAUDE.md
-
 # Project-specific
 image_mockup/
